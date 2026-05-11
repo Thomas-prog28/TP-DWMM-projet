@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+}
+
+.header {
+  margin: 0 auto;
+}
+.header__img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 160px;
+}
+.header__nav {
+  background-color: #f7e6eb;
+  height: 25px;
+}
+.header__liste {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 12px;
+}
+.header__puce {
+  text-decoration: none;
+  font-family: "Cormorant Garamond", sans-serif;
+  color: #3a3a3a;
+}
+.header__puce:hover {
+  color: #e07a9e;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+@use '../abstracts/variables' as *;
+
+.header {
+    margin: 0 auto;
+    // width: 95vw;
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+        border-radius: 160px;
+    }
+
+    &__nav {
+        background-color: $bg-nav;
+        height: 25px;
+    }
+
+    &__liste {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 12px;
+    }
+
+    &__puce {
+        text-decoration: none;
+        font-family: $font-link;
+        color: $color-link;
+        &:hover {
+            color: #e07a9e;
+        }
+    }
+
+     
+    }
