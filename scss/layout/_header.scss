@@ -7,21 +7,34 @@
     &__img {
         display: block;
         margin: 0 auto;
-        width: 60%;
+        padding: 10px;
+        width: 55%;
         border-radius: 160px;
+        @media (min-width: 768px) {
+            width: 30%;
+            @media (min-width: 1024px){
+                width: 25%;
+        }
+        }
     }
 
     &__nav {
         background-color: $bg-nav;
-        height: 25px;
+        border-radius: 3px;
+        height: 26px;
+        padding: 1px;
     }
 
     &__liste {
         display: flex;
         justify-content: center;
         list-style: none;
-        gap: 12px;
-    }
+        gap: 22px;
+        @media (min-width: 768px) {
+            gap: 90px;
+        }
+            
+        }
 
     &__puce {
         text-decoration: none;
@@ -31,6 +44,4 @@
             color: #e07a9e;
         }
     }
-
-     
-    }
+}

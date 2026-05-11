@@ -14,18 +14,36 @@ body {
 .header__img {
   display: block;
   margin: 0 auto;
-  width: 60%;
+  padding: 10px;
+  width: 55%;
   border-radius: 160px;
+}
+@media (min-width: 768px) {
+  .header__img {
+    width: 30%;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .header__img {
+    width: 25%;
+  }
 }
 .header__nav {
   background-color: #f7e6eb;
-  height: 25px;
+  border-radius: 3px;
+  height: 26px;
+  padding: 1px;
 }
 .header__liste {
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 12px;
+  gap: 22px;
+}
+@media (min-width: 768px) {
+  .header__liste {
+    gap: 90px;
+  }
 }
 .header__puce {
   text-decoration: none;
