@@ -1,0 +1,17 @@
+//Thème clair
+:root {
+    --bg-nav: #f8d6e0;
+    --color-link: #3a3a3a;
+    --color-hover: #e07a9a;
+    --fil-clair: #e6b800; /* jaune doré */
+    --fil-sombre: #6aa9ff; /* bleu nuit doux */
+    --bois-clair: #d8b48a;
+    --bois-sombre: #6b4f3a;
+}
+
+//Thème sombre
+[data-theme="dark"] {
+    --bg-nav: #0f0f0f;
+    --color-link: #3cc7e8;
+    --color-hover: #e07a9a;
+}

@@ -1,3 +1,16 @@
-$bg-nav: #f7e6eb; 
-$color-link: #3a3a3a;
+// ===============================
+// mode clair
+// ===============================
 $font-link: 'Cormorant Garamond', sans-serif;
+$bg-nav: var(--bg-nav);
+$color-link: var(--color-link);
+$color-hover: var(--color-hover);
+
+// ==================================
+// mode sombre
+// ==================================
+// $font-link: 'Montserrat', sans-serif;
+$bg-nav: var(--bg-nav);
+$color-link: var(--color-link);
+$color-hover: var(--color-hover);
+
